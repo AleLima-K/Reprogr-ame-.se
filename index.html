@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt
+">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reprogr{ame}.se</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Css Banner-->
+    <link rel="stylesheet" href="/componentes/banner_inicial.css">
+    <!--Css Sobre-->
+    <link rel="stylesheet" href="/componentes/sobre.css">
+    <!--Css Apoie-->
+    <link rel="stylesheet" href="/componentes/apoie.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+
+    <div class="container-flex">
+
+        <!--Navbar-->
+        <div id="nav_placeholder"></div>
+        <!--Fim Navbar-->
+        <!--Banner Inicial-->
+        <div id="banner_home">
+            <div class="row">
+                <div class="col s6">
+                    <img src="./componentes/imagens/banner_inicial.png" alt="">
+                </div>
+                <div class="col s6">
+                    <h1 id="titulo_banner_inicial">Reprogr
+                        <b id="grad_titulo">{</b><b id="ame_titulo"> ame</b>
+                        <b id="grad_fecha_titulo">}</b>.se</h1>
+                    <h3 id="subtitulo_banner_inicial">Reflita, Inspire, Aprenda e <br> Programe seus sonhos</h3>
+                </div>
+            </div>
+        </div>
+        <!--Fim Banner Inicial-->
+
+        <!--Sobre-->
+        <div class="row">
+            <div class="col s6">
+                <h1 id="titulo_sobre">Sobre nós</h1>
+                <div id="divisor" class="divider"></div>
+                <p id="texto_sobre">Somos uma comunidade de amantes da tecnologia que tem como objetivo desconstruir naturalizações criadas pela sociade.<br> Isso não é de menino e nem de menina, e sim de todos!</p>
+            </div>
+            <div class="col s6">
+                <img src="./componentes/imagens/sobre.png" alt="" class="responsive-img">
+            </div>
+        </div>
+        <!--Fim Sobre-->
+
+        <!--Apoie-->
+        <div class="row">
+            <h1 id="titulo_apoie">Apoie nosso projeto</h1>
+            <div id="divisor_apoie" class="divider"></div>
+            <div class="col s4">
+                <div class="card transparent">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./componentes/imagens/apoie_instrutor.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text center-align "><b>Seja Instrutor</b><i class="material-icons right">more_vert</i></span>
+                        <p class="right-align"><a href="#">Inscreva-se</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="card transparent">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./componentes/imagens/apoie_membro.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text center-align"><b>Seja Membro</b><i class="material-icons right">more_vert</i></span>
+                        <p class="right-align"><a href="#">Inscreva-se</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="card transparent">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./componentes/imagens/apoie_patrocinio.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text center-align"><b>Seja Patrocinador</b><i class="material-icons right">more_vert</i></span>
+                        <p class="right-align">
+                            <a href="#">Inscreva-se</a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fim Apoie-->
+        <!--Comunidade-->
+
+        <!--Fim Comunidade-->
+
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type=" text/javascript " src="js/materialize.min.js "></script>
+
+    <!--Chamada Navbar e Footer-->
+    <script>
+        $(function() {
+            $("#nav_placeholder ").load("./componentes/navbar.html ");
+
+        });
+    </script>
+    <!--Fim Chamada Navbar e Footer-->
+</body>
+
+</html>

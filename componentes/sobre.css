@@ -1,0 +1,17 @@
+#titulo_sobre {
+    background: linear-gradient(180deg, #E962FF 32.81%, #FB7B04 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#divisor {
+    background: linear-gradient(180deg, #FB7B04 0%, #8D0283 100%);
+    width: 40vh;
+}
+
+#texto_sobre {
+    color: #ffff;
+    font-size: 2.3em;
+    text-align: left;
+}

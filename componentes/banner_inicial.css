@@ -1,0 +1,46 @@
+    body {
+        background-color: #291E50;
+    }
+    
+    #titulo_banner_inicial {
+        position: relative;
+        text-align: center;
+        top: 8vh;
+        color: #ffff;
+    }
+    
+    #ame_titulo {
+        color: #E962FF;
+    }
+    
+    #grad_titulo {
+        position: relative;
+        background: linear-gradient(180deg, #FE6229 0%, #FC396B 56.77%, #FC376E 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    #grad_fecha_titulo {
+        position: relative;
+        background: linear-gradient(180deg, #FE6229 0%, #FC396B 56.77%, #FC376E 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    #subtitulo_banner_inicial {
+        position: relative;
+        top: 23vh;
+        color: #ffff;
+        text-align: center;
+    }
+    
+    #nav_placeholder {
+        opacity: 0.8;
+        color: #4a148c;
+    }
+    
+    #menu_itens {
+        color: #ffff;
+    }
