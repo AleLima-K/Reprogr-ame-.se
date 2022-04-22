@@ -1,21 +1,14 @@
-#titulo_sobre {
-    background: linear-gradient(180deg, #E962FF 32.81%, #FB7B04 100%);
+#titulo_comunidade {
+    position: relative;
+    background: linear-gradient(180deg, #FE6229 0%, #FC396B 56.77%, #FC376E 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-left: 3vh;
-    margin-top: 100vh;
 }
 
-#divisor {
+#divisor_comunidade {
     background: linear-gradient(180deg, #FB7B04 0%, #8D0283 100%);
     width: 40vh;
-    margin-left: 3vh;
-}
-
-#texto_sobre {
-    color: #ffff;
-    font-size: 2.3em;
-    text-align: left;
     margin-left: 3vh;
 }

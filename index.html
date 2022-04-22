@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="/componentes/sobre.css">
     <!--Css Apoie-->
     <link rel="stylesheet" href="/componentes/apoie.css">
+    <!--Css Comunidade-->
+    <link rel="stylesheet" href="/componentes/comunidade.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -30,7 +32,7 @@
 
 <body>
 
-    <div class="container-flex">
+    <div class="container-fluid">
 
         <!--Navbar-->
         <div id="nav_placeholder"></div>
@@ -38,10 +40,10 @@
         <!--Banner Inicial-->
         <div id="banner_home">
             <div class="row">
-                <div class="col s6">
-                    <img src="./componentes/imagens/banner_inicial.png" alt="">
+                <div class="col s12">
+                    <img id="banner_img" src="./componentes/imagens/banner_inicial.png" alt="">
                 </div>
-                <div class="col s6">
+                <div class="col s12">
                     <h1 id="titulo_banner_inicial">Reprogr
                         <b id="grad_titulo">{</b><b id="ame_titulo"> ame</b>
                         <b id="grad_fecha_titulo">}</b>.se</h1>
@@ -59,13 +61,13 @@
                 <p id="texto_sobre">Somos uma comunidade de amantes da tecnologia que tem como objetivo desconstruir naturalizações criadas pela sociade.<br> Isso não é de menino e nem de menina, e sim de todos!</p>
             </div>
             <div class="col s6">
-                <img src="./componentes/imagens/sobre.png" alt="" class="responsive-img">
+                <img id="sobre_img" src="./componentes/imagens/sobre.png" alt="" class="responsive-img">
             </div>
         </div>
         <!--Fim Sobre-->
 
         <!--Apoie-->
-        <div class="row">
+        <div class="row ">
             <h1 id="titulo_apoie">Apoie nosso projeto</h1>
             <div id="divisor_apoie" class="divider"></div>
             <div class="col s4">
@@ -90,7 +92,7 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator white-text center-align"><b>Seja Membro</b><i class="material-icons right">more_vert</i></span>
-                        <p class="right-align"><a href="#">Inscreva-se</a></p>
+                        <p class="right-align"><a href="/membro.html">Inscreva-se</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
@@ -118,22 +120,42 @@
         </div>
         <!--Fim Apoie-->
         <!--Comunidade-->
+        <div class="row">
+            <h1 id="titulo_comunidade">Comunidade</h1>
+            <div id="divisor_comunidade" class="divider"></div>
+            <div class="col s1 center-alig">
+                <img id="img_carrossel" src="/componentes/imagens/logo_dc.png" alt="" class="responsive-img">
+            </div>
+            <div class="col s1 center-alig">
+                <img id="img_carrossel" src="/componentes/imagens/logo_telegram.png" alt="" class="responsive-img">
+            </div>
+            <div class="col s1 center-alig">
+                <img id="img_carrossel" src="/componentes/imagens/logo_forum.png" alt="" class="responsive-img">
+            </div>
+        </div>
 
         <!--Fim Comunidade-->
+        <!--Footer-->
+        <div id="footer_placeholder"></div>
+        <!--Fim Footer-->
 
     </div>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src=" https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+
 
     <!--JavaScript at end of body for optimized loading-->
     <script type=" text/javascript " src="js/materialize.min.js "></script>
 
     <!--Chamada Navbar e Footer-->
     <script>
+        M.AutoInit();
         $(function() {
             $("#nav_placeholder ").load("./componentes/navbar.html ");
-
+            $("#footer_placeholder ").load("./componentes/footer.html ");
+            $('.carousel').carousel({
+                fullWidth: true,
+                indicators: true
+            });
         });
     </script>
     <!--Fim Chamada Navbar e Footer-->

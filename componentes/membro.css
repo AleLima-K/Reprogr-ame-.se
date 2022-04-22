@@ -1,13 +1,28 @@
-#titulo_apoie {
+body {
+    background-color: #291E50;
+}
+
+footer {}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#titulo_membro {
     background: linear-gradient(180deg, #E962FF 10.42%, #C674FF 61.46%, #07D2FE 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-left: 3vh;
+    font-weight: bolder;
+    text-align: left;
 }
 
-#divisor_apoie {
+#botao_membro {
     background: linear-gradient(180deg, #E962FF 10.42%, #C674FF 61.46%, #07D2FE 100%);
-    width: 70vh;
-    margin-left: 3vh;
+}
+
+#forms_membro {
+    margin-top: 20vh;
 }

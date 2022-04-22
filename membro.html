@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reprogr{ame}.se</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/componentes/membro.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="nav_placeholder"></div>
+        <div class="row">
+            <div class="col s6">
+                <h1 id="titulo_membro">Seja Membro !</h1>
+                <img src="/componentes/imagens/apoie_membro.png" class="responsive-img" alt="">
+            </div>
+            <div id="forms_membro" class="col s6">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="Nome completo" id="first_name" type="text" class="white-text validate">
+                        <label for="first_name">Nome</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Idade" id="last_name" type="text" class="white-text validate">
+                        <label for="last_name">Idade</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="Cidade" id="first_name" type="text" class="white-text validate">
+                        <label for="first_name">Cidade</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="UF" id="last_name" type="text" class="white-text validate">
+                        <label for="last_name">Unidade Federal</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="E-mail" id="first_name" type="text" class="white-text validate">
+                        <label for="first_name">E-mail</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="Usuário" id="last_name" type="text" class="white-text validate">
+                        <label for="last_name">Usuário</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Senha" id="password" type="password" class="white-text validate">
+                        <label for="password">Senha</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="first_name" type="text" class="white-text validate">
+                        <label for="first_name">Como você nos encontrou?</label>
+                    </div>
+
+                </div>
+                <button id="botao_membro" class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                    <i class="material-icons right">send</i>
+                  </button>
+
+            </div>
+        </div>
+
+        <div id="footer_placeholder"></div>
+    </div>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type=" text/javascript " src="js/materialize.min.js "></script>
+
+
+    <!--Chamada Navbar e Footer-->
+    <script>
+        M.AutoInit();
+        $(function() {
+            $("#nav_placeholder ").load("./componentes/navbar.html ");
+            $("#footer_placeholder ").load("./componentes/footer.html ");
+            $('.carousel').carousel({
+
+            });
+
+        });
+    </script>
+    <!--Fim Chamada Navbar e Footer-->
+</body>
+
+</html>

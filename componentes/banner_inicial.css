@@ -2,8 +2,18 @@
         background-color: #291E50;
     }
     
+    #banner_img {
+        position: absolute;
+        top: 0px;
+        z-index: -1;
+    }
+    
+    #sobre_img {
+        margin-top: 90vh;
+    }
+    
     #titulo_banner_inicial {
-        position: relative;
+        margin-left: 80vh;
         text-align: center;
         top: 8vh;
         color: #ffff;
@@ -30,8 +40,9 @@
     }
     
     #subtitulo_banner_inicial {
+        margin-left: 80vh;
         position: relative;
-        top: 23vh;
+        top: 13vh;
         color: #ffff;
         text-align: center;
     }
@@ -43,4 +54,12 @@
     
     #menu_itens {
         color: #ffff;
+    }
+    
+    #carrossel {
+        top: 3vh;
+    }
+    
+    #img_carrossel {
+        margin-left: 80vh;
     }
